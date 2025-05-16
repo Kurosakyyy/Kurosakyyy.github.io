@@ -1,0 +1,341 @@
+~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Portfolio</a>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span>Muhammad Rizky Destyanto</span><br>Web Developer</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis mollitia repellat nihil asperiores cupiditate expedita natus provident voluptatibus sequi cum nam perspiciatis facere ducimus cumque sint omnis, id quia ex.</p>
+                    <div class="hero-btns">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/Kurosakyyy"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-rizky-destyanto"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/rzkydstyn_20?t=IS9CXe7wj9rDMMtBMgWJ9A&s=09"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/kayy_dstyn?igsh=MTEwbDg0dG1iZm5zMg=="><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="image.png" alt="Muhammad Rizky Destyanto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image.png" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h2>Who Am I?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae soluta vitae minima modi, ipsum neque architecto sequi sunt mollitia veniam velit, quo sed expedita voluptatibus quae ea ipsam deleniti. Nam!.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque magni temporibus odit blanditiis optio reiciendis quisquam sed rerum delectus, eos aliquam numquam provident fugit voluptatem nesciunt nihil alias ipsa in..</p>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skills-list">
+                            <span class="skill-item">HTML5</span>
+                            <span class="skill-item">CSS3</span>
+                            <span class="skill-item">JavaScript</span>
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">Vue.js</span>
+                            <span class="skill-item">Node.js</span>
+                            <span class="skill-item">PHP</span>
+                            <span class="skill-item">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, quaerat! Minus ipsam dignissimos quas ipsum molestiae placeat. Consectetur adipisci, nihil temporibus maxime deserunt possimus esse dolores illum, doloribus suscipit officia!</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus velit exercitationem libero suscipit, sint laboriosam aspernatur, temporibus ratione quam placeat repellat non sed dolores? Quia quidem quaerat quasi itaque rerum?</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius ducimus assumenda magni recusandae sunt velit fuga libero expedita hic, voluptate veniam. Atque quibusdam at fugiat, ipsam deleniti beatae vitae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Project 1">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, in, mollitia quis, dolorem sint voluptatibus a quibusdam adipisci aliquid possimus iure quaerat soluta? Ratione, recusandae. Aut dolores soluta fugiat natus.</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 2">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Fitness App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum temporibus, possimus eveniet suscipit, voluptatem asperiores veniam assumenda nostrum molestiae libero saepe qui ad tempora alias quam accusantium aperiam vero laudantium.</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Project 3">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima commodi libero cum deleniti sapiente! Veniam et facere eius dolores reiciendis in facilis corporis blanditiis harum? Temporibus harum cupiditate nostrum consectetur!</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" alt="Project 4">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Website</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, eum earum ut laudantium architecto, tempora quisquam aut culpa accusamus nulla, iusto dignissimos dolores ipsum delectus! Perspiciatis iusto explicabo quo aut!</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 5">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Task Manager</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ullam quaerat ad blanditiis nisi, aliquam maxime a dolorem omnis quod assumenda voluptates nam quibusdam impedit provident fuga incidunt qui non..</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 6">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Marketing Materials</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem nisi praesentium fugit quibusdam suscipit nulla pariatur eaque veniam dolores facilis? Id quia at fugit ab laborum soluta numquam assumenda veritatis?</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <div class="testimonials-container">
+                <div class="testimonial active">
+                    <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Client 1" class="testimonial-img">
+                    <p class="testimonial-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ratione, consectetur officiis ad exercitationem perferendis facere eum tempore at id inventore, explicabo ipsum, accusantium placeat. Assumenda culpa delectus cupiditate iure.."</p>
+                    <h4 class="testimonial-author">Sarah Johnson</h4>
+                    <p class="testimonial-role">CEO, TechSolutions Inc.</p>
+                </div>
+                <div class="testimonial">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 2" class="testimonial-img">
+                    <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere optio illum quia fugiat labore vero fugit explicabo nemo et vel ut est, asperiores atque dolorum. Quidem nulla perspiciatis repudiandae adipisci.</p>
+                    <h4 class="testimonial-author">Michael Brown</h4>
+                    <p class="testimonial-role">Marketing Director, RetailCorp</p>
+                </div>
+                <div class="testimonial">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client 3" class="testimonial-img">
+                    <p class="testimonial-text">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti iste modi commodi officiis suscipit libero, corrupti culpa, doloremque sed tempore cum odit minus velit cupiditate porro rerum qui numquam?</p>
+                    <h4 class="testimonial-author">Emily Davis</h4>
+                    <p class="testimonial-role">Founder, FitLife</p>
+                </div>
+                <div class="testimonial-nav">
+                    <div class="testimonial-dot active" data-index="0"></div>
+                    <div class="testimonial-dot" data-index="1"></div>
+                    <div class="testimonial-dot" data-index="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Let's Talk About Your Project</h2>
+                    <p>Feel free to reach out if you're looking for a developer for your project, have a question, or just want to connect.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>Bogor, West Java</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>rizkydestyanto@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>+62 888 8888 8888</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Portfolio</a>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="footer-social">
+                    <a href="https://github.com/Kurosakyyy" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammad-rizky-destyanto" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/rzkydstyn_20?t=IS9CXe7wj9rDMMtBMgWJ9A&s=09" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/kayy_dstyn?igsh=MTEwbDg0dG1iZm5zMg==~" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="copyright">&copy; 2025 Muhammad Rizky Destyanto. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+    <script>
+    smoothscroll.polyfill();
+    </script>
+</body>
+</html>
